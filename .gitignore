@@ -4,3 +4,12 @@
 
 # macOS
 .DS_Store
+
+# Xcode user state
+*.xcuserstate
+xcuserdata/
+*.xcuserdata/
+
+# Xcode build products
+DerivedData/
+build/
