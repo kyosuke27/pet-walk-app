@@ -1,0 +1,6 @@
+# documents
+/docs
+/images
+
+# macOS
+.DS_Store
