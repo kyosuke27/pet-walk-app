@@ -33,8 +33,10 @@ enum BuddyMood {
         switch self {
         case .good:
             return "buddy.mood.good"
+
         case .needsWalk:
             return "buddy.mood.needsWalk"
+
         case .needsCare:
             return "buddy.mood.needsCare"
         }
