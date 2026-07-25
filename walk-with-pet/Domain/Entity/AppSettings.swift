@@ -4,6 +4,4 @@ struct AppSettings: Equatable {
     var notificationsEnabled: Bool
     /// 距離表示単位。
     var distanceUnit: DistanceUnit
-    /// 広告削除が購入済みかどうか。
-    var hasRemovedAds: Bool
 }
