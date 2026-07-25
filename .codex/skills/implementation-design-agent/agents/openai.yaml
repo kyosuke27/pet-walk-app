@@ -1,0 +1,4 @@
+interface:
+  display_name: "実装設計エージェント"
+  short_description: "既存構造に沿った実装設計を作成"
+  default_prompt: "$implementation-design-agent を使って、影響範囲調査、要件、プロジェクトの AGENTS.md から実装設計を作成してください。"

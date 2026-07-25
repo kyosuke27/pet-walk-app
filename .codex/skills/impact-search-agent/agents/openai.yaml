@@ -1,0 +1,4 @@
+interface:
+  display_name: "影響範囲調査エージェント"
+  short_description: "修正対象ファイルと影響範囲を特定"
+  default_prompt: "$impact-search-agent を使って、この変更要望の修正対象ファイル、呼び出し元、影響範囲を特定してください。"
