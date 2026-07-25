@@ -15,10 +15,13 @@ enum TreatKind: String, CaseIterable, Identifiable {
         switch self {
         case .smallSnack:
             return "treat.smallSnack"
+
         case .freshFruit:
             return "treat.freshFruit"
+
         case .specialMeal:
             return "treat.specialMeal"
+
         case .rareTreat:
             return "treat.rareTreat"
         }
@@ -29,10 +32,13 @@ enum TreatKind: String, CaseIterable, Identifiable {
         switch self {
         case .smallSnack:
             return "takeoutbag.and.cup.and.straw.fill"
+
         case .freshFruit:
             return "leaf.fill"
+
         case .specialMeal:
             return "fork.knife.circle.fill"
+
         case .rareTreat:
             return "star.fill"
         }
@@ -43,10 +49,13 @@ enum TreatKind: String, CaseIterable, Identifiable {
         switch self {
         case .smallSnack:
             return AppColor.treatGold
+
         case .freshFruit:
             return AppColor.trailGreen
+
         case .specialMeal:
             return AppColor.treatOrange
+
         case .rareTreat:
             return AppColor.treatPurple
         }

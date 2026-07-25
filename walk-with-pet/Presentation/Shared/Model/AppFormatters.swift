@@ -35,4 +35,24 @@ enum AppFormatters {
         formatter.dateFormat = "MMM d, yyyy"
         return formatter.string(from: date)
     }
+
+    /// 履歴行の日付上段に表示する曜日へ変換する。
+    /// - Parameter date: 表示対象の日付。
+    /// - Returns: 現在のロケールに合わせた曜日文字列。
+    static func historyWeekdayText(_ date: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.locale = Locale.current
+        formatter.dateFormat = "EEEE"
+        return formatter.string(from: date)
+    }
+
+    /// 履歴行の日付下段に表示する年月日へ変換する。
+    /// - Parameter date: 表示対象の日付。
+    /// - Returns: `yyyy/MM/dd` 形式の日付文字列。
+    static func historyNumericDateText(_ date: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "en_US_POSIX")
+        formatter.dateFormat = "yyyy/MM/dd"
+        return formatter.string(from: date)
+    }
 }
