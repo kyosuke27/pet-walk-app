@@ -1,0 +1,17 @@
+{
+  "description": "Project hooks for walk-with-pet.",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/bin/zsh \"$(git rev-parse --show-toplevel)/.codex/hooks/swiftlint_fix_on_stop.zsh\"",
+            "timeout": 120,
+            "statusMessage": "Running SwiftLint fix"
+          }
+        ]
+      }
+    ]
+  }
+}
