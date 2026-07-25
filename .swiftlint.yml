@@ -18,7 +18,6 @@ opt_in_rules:
   - multiline_function_chains
 
 included:
-  # 対象プロジェクトのソースフォルダへ変更する
   - walk-with-pet/
   - Tests
 
