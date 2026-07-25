@@ -11,8 +11,10 @@ enum AppTab: Hashable {
         switch self {
         case .home:
             return "tab.home"
+
         case .history:
             return "tab.history"
+
         case .settings:
             return "tab.settings"
         }
@@ -23,8 +25,10 @@ enum AppTab: Hashable {
         switch self {
         case .home:
             return "house"
+
         case .history:
             return "calendar"
+
         case .settings:
             return "gearshape"
         }
@@ -35,8 +39,10 @@ enum AppTab: Hashable {
         switch self {
         case .home:
             return "house.fill"
+
         case .history:
             return "chart.bar.fill"
+
         case .settings:
             return "gearshape.fill"
         }

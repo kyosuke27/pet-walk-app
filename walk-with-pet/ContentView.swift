@@ -64,14 +64,19 @@ struct ContentView: View {
         switch route {
         case .home:
             HomeContainer(viewModel: HomeScreenViewModel(router: router))
+
         case .history:
             HistoryContainer(viewModel: HistoryScreenViewModel(router: router))
+
         case .settings:
             SettingsContainer(viewModel: SettingsScreenViewModel(router: router))
+
         case .walkSpots:
             RoutePlaceholderScreen(titleKey: "route.walkSpots")
+
         case .activeWalk:
             RoutePlaceholderScreen(titleKey: "route.activeWalk")
+
         case .walkResult:
             RoutePlaceholderScreen(titleKey: "route.walkResult")
         }
