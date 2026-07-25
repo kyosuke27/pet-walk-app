@@ -22,8 +22,10 @@ extension AppTab {
         switch self {
         case .home:
             return .home
+
         case .history:
             return .history
+
         case .settings:
             return .settings
         }
